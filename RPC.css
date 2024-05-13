@@ -1,0 +1,88 @@
+*{
+   margin: 0%;
+   padding: 0%;
+   background-color: pink;
+}
+
+h1{
+  font-size: 50px;
+   text-align: center;
+   background-color: rgb(45, 210, 210);
+}
+
+#content {
+   display: flex;
+   flex-direction: column;
+   padding: 5%;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+
+#rock{
+   width: 200px;
+   height: 200px;
+
+
+}
+#paper{
+   width: 200px;
+   height: 200px;
+   
+}
+#scissors{
+   width: 200px;
+   height: 200px;
+   
+}
+ 
+
+   #rock:hover {
+      cursor: pointer;
+      background-color: black;
+      border: 3px solid black;
+   }
+   #paper:hover {
+      cursor: pointer;
+      background-color: black;
+      border: 3px solid black;
+   }
+   #scissors:hover {
+      cursor: pointer;
+      background-color: black;
+      border: 3px solid black;
+   }
+
+
+   
+
+#imgdiv {
+   display: flex;
+   gap: 5%;
+   
+
+}
+
+.scoreb{
+   display: flex;
+   font-size: 50px;
+   gap: 40%;
+   
+}
+#user{
+   display: flex;
+   font-size: 50px;
+   
+
+}
+#move{
+   color: black;
+   
+   padding: 3%;
+   background-color: darkgreen;
+   text-align: center;
+   
+   margin-top: 70px;
+   font-size: 50px;
+}
